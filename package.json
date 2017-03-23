@@ -1,0 +1,46 @@
+{
+  "name": "balanced-brackets",
+  "version": "1.0.0",
+  "description": "Balanced brackets algorithm",
+  "main": "index.js",
+  "dependencies": {
+    "index": "^0.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-cli": "^6.24.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "install": "^0.8.7",
+    "npm": "^4.4.1",
+    "xo": "^0.18.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuslc/balanced-brackets.git"
+  },
+  "keywords": [
+    "balanced",
+    "brackets"
+  ],
+  "author": "Matheus Lucca do Carmo <mematheuslc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheuslc/balanced-brackets/issues"
+  },
+  "homepage": "https://github.com/matheuslc/balanced-brackets#readme",
+  "ava": {
+    "files": [
+      "*.test.js"
+    ],
+    "babel": "inherit",
+    "require": [
+      "babel-register"
+    ]
+  }
+}
