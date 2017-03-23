@@ -4,7 +4,6 @@ import { balance } from './index';
 test('Should return false', t => {
 	const string = '[{)]';
 
-	// t.false(balance(string));
 	t.false(balance(string));
 });
 
