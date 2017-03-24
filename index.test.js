@@ -1,5 +1,5 @@
 import test from 'ava';
-import { balance } from './index';
+import balance from './index';
 
 test('Should return false', t => {
 	const string = '[{)]';

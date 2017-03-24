@@ -4,7 +4,11 @@
   "description": "Balanced brackets algorithm",
   "main": "index.js",
   "dependencies": {
-    "index": "^0.4.0"
+    "index": "^0.4.0",
+    "yargs": "^7.0.2"
+  },
+  "bin": {
+    "balance-brackets": "cli.js"
   },
   "devDependencies": {
     "ava": "^0.18.2",
