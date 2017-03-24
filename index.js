@@ -1,4 +1,4 @@
-export const balance = str => {
+module.exports = str => {
     let expectedBracket,
         stack = [],
         opens = ['[', '{', '('],
